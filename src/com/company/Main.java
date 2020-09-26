@@ -5,9 +5,10 @@ import javax.swing.*;
 public class Main {
 
     public static void main(String[] args) {
-        MainFrame mf = new MainFrame();
-        mf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        mf.setSize(800, 600);
-        mf.setVisible(true);
+        MainWindow nw = new MainWindow();
+        nw.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        nw.setSize(800, 900);
+        nw.setTitle("KG 1 Task");
+        nw.setVisible(true);
     }
 }
