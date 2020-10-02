@@ -17,7 +17,7 @@ public class Background implements Drawable {
     }
 
     private void drawSky(Graphics2D gr, int height, int width) {
-        gr.setColor(new Color(0, 0, 250));
+        gr.setColor(new Color(17, 137, 238));
         gr.fillRect(0, 0, width, height);
     }
 }

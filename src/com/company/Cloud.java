@@ -19,7 +19,7 @@ public class Cloud implements Drawable{
         drawCloud(g, height, weigh);
     }
 
-    private void drawCloud(Graphics2D gr, int height, int width) {
+    private void drawCloud(Graphics2D gr, int height, int weigh) {
         gr.setColor(new Color(255, 255, 255));
         gr.fillOval(x - (int)(weigh * 0.4), y - (int)(0.4 * height), (int)(weigh * 0.3), (int)(height * 0.42));
         gr.fillOval(x - (int)(weigh * 0.17), y - (int)(0.44 * height), (int)(weigh * 0.28), (int)(height * 0.38));
