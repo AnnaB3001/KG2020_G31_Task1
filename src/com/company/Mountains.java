@@ -18,13 +18,13 @@ public class Mountains implements Drawable {
     }
 
     private void drawMountains(Graphics2D gr) {
-        for (int i = 0; i < 5; i++) {
-            gr.setColor(Color.pink);
-            gr.drawArc(i * 190 - 80, 3 * height / 2 + 26, 190, 180, 0, 180);
-        }
         for (int i = 0; i < 6; i++) {
-            gr.setColor(Color.LIGHT_GRAY);
-            gr.drawArc(i * 220 - 30, height + 265, 210, 180, 0, 180);
+            gr.setColor(Color.pink);
+            gr.fillArc(i * 160 - 195 , 3 * height / 2 + 50, 200, 300, 0, 180);
+        }
+        for (int i = 0; i < 4; i++) {
+            gr.setColor(new Color(121, 121, 121, 255));
+            gr.fillArc(i * 200 - 15, height + 225, 215, 250, 0, 180);
         }
     }
 }
