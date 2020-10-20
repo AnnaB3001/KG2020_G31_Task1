@@ -24,7 +24,7 @@ public class Mountains implements Drawable {
         }
         for (int i = 0; i < 4; i++) {
             gr.setColor(new Color(121, 121, 121, 255));
-            gr.fillArc(i * 200 - 15, height + 225, 215, 250, 0, 180);
+            gr.fillArc(i * 200 - 15, height + 240, 215, 250, 0, 180);
         }
     }
 }
